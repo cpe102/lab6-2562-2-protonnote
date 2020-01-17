@@ -2,32 +2,16 @@
 using namespace std;
 
 char before(char x){
-	int a;
-	if (int(x) == 65) {
-		a = 90;
-		return a;
-	}
-	if (int(x) == 66){
-		a = 65;
-		return a;
-	}
-	if (int(x) == 80){
-		a = 79;
-		return a;
-	}
-	if (int(x) == 84){
-		a = 83;
-		return a;
-	}
-	if (int(x) == 90){
-		a = 89;
-		return a;
-	}
-	if ( int(x) > 90 || int(x) < 65){
-		a = 48;
-		return a;
+	if (int(x) < 65|| int(x) > 90) {
+		return '0';
+	}else {
+		if( x == 65){
+			return 'z';
+		}
+		return x-1;
 	}
 }
+
 
 int main(){
 
