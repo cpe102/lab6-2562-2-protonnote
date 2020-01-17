@@ -6,7 +6,7 @@ int main(){
     int id;
     string name,movie,day,word;
     cout << "Fahsai: Sawadee ka...Can you tell me your name?" << endl;
-    cout << "?????:";
+    cout << "?????: ";
     getline(cin,name) ;
     cout << "Fahsai: Wow!!! " << name << " that is a really cool name.\n";
     cout << "Fahsai: I think you are Engineering student. What is your student ID?\n";
